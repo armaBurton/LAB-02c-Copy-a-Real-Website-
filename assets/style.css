@@ -193,10 +193,6 @@ select{
     width: 100%;
 }
 
-.table-content{
-    /* border: 1px solid lightgray; */
-}
-
 .linen{
     background-color: linen;
 }
@@ -260,12 +256,15 @@ footer{
     display: grid;
     grid-template-rows: 1fr 1fr;
     bottom:0;
+    justify-items: center;
 }
 
 .list-content{
+    width: 1000px;
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
     grid-auto-flow: column;
+    /* justify-items: center; */
 }
 
 .footer-list{
